@@ -11,23 +11,49 @@
 </head>
 
 <body>
-    <script src="js/main.js">
-    </script>
-    <div id="content">
-        <div id="logo">
-            <img src="./images/google-logo.png">
+    <div class="grid-navbar">
+        <div class="nav"><a href="#">About</a></div>
+        <div class="nav"><a href="#">Store</a></div>
+        <div class="nav"></div>
+        <div class="nav"><a href="#">Gmail</a></div>
+        <div class="nav"><a href="#">Images</a></div>
+        <div class="nav">
+            <img class="google-apps" src="https://www.shareicon.net/download/2015/09/12/99848_apps.ico" alt="Google Apps">
         </div>
-        <div id="searchbar">
-            <form id="searchform">
-                <input id="searchinput">
-                <br>
-                <br>
-                <div id="buttons">
-                    <input class="flatbutton" type="submit" name="Google Search" value="Google Search">
-                    <input class="flatbutton" type="submit" name="I'm feeling lucky" value="I'm feeling lucky">
-                </div>
-            </form>
+        <div class="nav 7">
+            <button id="sign-in" type="button" name="button">Sign in</button>
         </div>
+    </div>
+    <div class="google-logo">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    </div>
+    <div class="search-area">
+        <form class="search-box" action="index.html" method="post">
+            <input class="search-text" name="search" value="" type="text">
+        </form>
+        <div>
+            <img class="mic" src="http://www.pvhc.net/img162/zbmfagyxsrtfkmhboghc.png">
+        </div>
+    </div>
+    <div class="grid-buttons">
+        <div class="blank1"></div>
+        <div class="gsearch btn">
+            <button id="google-search" class="but" type="button" name="button">Google Search</button>
+        </div>
+        <div class="lucky btn">
+            <button id="lucky" class="but" type="button" name="button">I'm Feeling Lucky</button>
+        </div>
+        <div class="blank2"></div>
+    </div>
+    <div class="grid-footer">
+        <div class="foot-blank"></div>
+        <div class="foot"><a href="#">Advertising</a></div>
+        <div class="foot"><a href="#">Business</a></div>
+        <div class="foot-blank"></div>
+        <div class="foot 4"><a href="#">Privacy</a></div>
+        <div class="foot 5"><a href="#">Terms</a></div>
+        <div class="foot 6"><a href="#">Settings</a></div>
+    </div>
 </body>
 
 </html>
